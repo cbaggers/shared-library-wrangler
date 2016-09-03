@@ -5,6 +5,6 @@
   :author "Chris Bagley (Baggers) <techsnuffle@gmail.com>"
   :license "BSD 2 Clause"
   :serial t
-  :depends-on (#:uiop #:cl-fad #:cffi)
+  :depends-on (#:uiop #:cffi #:alexandria #:cl-fad )
   :components ((:file "package")
                (:file "base")))

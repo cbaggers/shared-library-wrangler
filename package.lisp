@@ -1,6 +1,6 @@
 ;;;; package.lisp
 
 (defpackage #:shared-library-wrangler
-  (:use #:cl)
+  (:use #:cl #:alexandria)
   ;;(:export )
   )
